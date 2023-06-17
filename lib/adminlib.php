@@ -3895,7 +3895,7 @@ class admin_setting_configduration extends admin_setting {
     protected int $minduration = 0;
 
     /** @var null|int The maximum allowed value */
-    protected null|int $maxduration = null;
+    protected $maxduration = null;
 
     /**
      * Constructor
